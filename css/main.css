@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.container {
+  display: grid; }
+
+header nav {
+  display: flex;
+  flex-direction: row;
+  background: #ffffff; }
+  header nav ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 16px; }
+    header nav ul .containerLogo {
+      padding: 0%; }
+      header nav ul .containerLogo .logo {
+        grid-area: "logo";
+        width: 100%;
+        text-align: center; }
+        header nav ul .containerLogo .logo img {
+          width: 45%; }
+    header nav ul li {
+      margin: 0%;
+      padding: 3%;
+      justify-content: center;
+      list-style: none;
+      font-size: 17px; }
+      header nav ul li .redBottom {
+        border-bottom: 2px transparent #f53a3a;
+        transition: 0.2s; }
+      header nav ul li a {
+        text-align: center;
+        text-decoration: none;
+        color: #204695; }
+
+.redBottom:hover {
+  scale: 1.1;
+  opacity: 1;
+  border-bottom: 2px solid #f53a3a; }
+
+body {
+  background-color: #FFFAF5; }
+
+.bannerContainer .banner {
+  width: 100%;
+  border-radius: 10px; }
+
+.bannerContainer p {
+  border-bottom: 1px #aaaaaa solid;
+  padding: 5%; }
+
+.main2 {
+  padding: 65px 0; }
+  .main2 .mainContainer {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 70px; }
+    .main2 .mainContainer .airplane {
+      display: flex; }
+      .main2 .mainContainer .airplane .airplaneImg {
+        display: flex;
+        align-content: center; }
+      .main2 .mainContainer .airplane .title {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 13px;
+        font-weight: bold;
+        color: #204695; }
+      .main2 .mainContainer .airplane h1 {
+        margin-top: 10px;
+        margin-bottom: 45px;
+        font-size: 44px;
+        line-height: 50px; }
+        .main2 .mainContainer .airplane h1 b {
+          font-weight: 600; }
+        .main2 .mainContainer .airplane h1 span {
+          font-size: 44px;
+          font-weight: 300; }
+      .main2 .mainContainer .airplane .button {
+        background-color: #204695;
+        display: inline-block;
+        width: 185px;
+        height: 40px;
+        margin-bottom: 15px;
+        padding: 11px 15px;
+        border-radius: 25px;
+        font-family: Montserrat, sans-serif;
+        color: #fff;
+        font-size: 13px;
+        font-weight: 700;
+        text-align: center;
+        text-decoration: none; }
+    .main2 .mainContainer .drone {
+      display: flex; }
+      .main2 .mainContainer .drone .droneImg {
+        display: flex;
+        align-content: center; }
+      .main2 .mainContainer .drone .button {
+        background-color: #204695;
+        display: inline-block;
+        width: 185px;
+        height: 40px;
+        margin-bottom: 15px;
+        padding: 11px 15px;
+        border-radius: 25px;
+        font-family: Montserrat, sans-serif;
+        color: #fff;
+        font-size: 13px;
+        font-weight: 700;
+        text-align: center;
+        text-decoration: none; }
+
+/* footer */
+footer {
+  background-color: #204695;
+  color: #fff;
+  text-align: center;
+  border-top: 1px solid black;
+  padding: 10px;
+  margin-top: 20px;
+  justify-content: space-between; }
+  footer h3 {
+    font-size: 15px; }
+  footer .footerSections {
+    display: flex;
+    flex-direction: row;
+    align-items: center; }
+    footer .footerSections .nav {
+      display: flex;
+      flex-direction: column;
+      font-size: 17px; }
+      footer .footerSections .nav a {
+        text-decoration: none;
+        color: #fff;
+        transition: 0.3s; }
+    footer .footerSections .social {
+      display: flex;
+      flex-direction: row; }
+      footer .footerSections .social a {
+        flex-wrap: wrap; }
+      footer .footerSections .social .imgSocial {
+        width: 23%;
+        transition: 0.3s; }
+      footer .footerSections .social .facebook {
+        width: 10%; }
+      footer .footerSections .social .ig {
+        width: 40%; }
+    footer .footerSections .contact {
+      font-size: 17px;
+      color: #fff;
+      text-decoration: none; }
+
+.imgSocial:hover {
+  transform: scale(1.1); }
+
+.navFooter:hover {
+  transform: scale(1.1); }

@@ -1,0 +1,89 @@
+body{
+    background-color: #FFFAF5;
+}
+
+.bannerContainer{
+    
+    .banner{
+        width: 100%;
+        border-radius: 10px;
+    }
+    p{
+        border-bottom: 1px rgb(170, 170, 170) solid;
+        padding: 5%;
+        
+    }
+}
+.main2{
+    padding: 65px 0;
+    .mainContainer{
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 70px;
+        .airplane{
+            display: flex;
+            .airplaneImg{
+                display: flex;
+                align-content: center;
+            }
+            .title{
+                font-family: 'Montserrat', sans-serif;
+                font-size: 13px;
+                font-weight: bold;
+                color: #204695;
+            }
+            h1{
+                margin-top: 10px;
+                margin-bottom: 45px;
+                font-size: 44px;
+                line-height: 50px;
+                b{
+                    font-weight: 600;
+                }
+                span{
+                    font-size: 44px;
+                    font-weight: 300;
+                }
+            }
+                .button{
+                    background-color: #204695;
+                    display: inline-block;
+                    width: 185px;
+                    height: 40px;
+                    margin-bottom: 15px;
+                    padding: 11px 15px;
+                    border-radius: 25px;
+                    font-family: Montserrat, sans-serif;
+                    color: #fff;
+                    font-size: 13px;
+                    font-weight: 700;
+                    text-align: center;
+                    text-decoration: none;
+                }
+        }
+        .drone{
+            display: flex;
+                .droneImg{
+                    display: flex;
+                    align-content: center;
+                }
+                .button{
+                    background-color: #204695;
+                    display: inline-block;
+                    width: 185px;
+                    height: 40px;
+                    margin-bottom: 15px;
+                    padding: 11px 15px;
+                    border-radius: 25px;
+                    font-family: Montserrat, sans-serif;
+                    color: #fff;
+                    font-size: 13px;
+                    font-weight: 700;
+                    text-align: center;
+                    text-decoration: none;
+                }
+            }
+    }
+}
+
+
