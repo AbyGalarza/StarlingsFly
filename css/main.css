@@ -99,14 +99,11 @@ body {
     .main .mainContainer .drone {
       display: flex; }
       .main .mainContainer .drone .droneImg {
-        display: flex;
         justify-content: center; }
       .main .mainContainer .drone .droneText {
-        text-align: center;
-        align-content: center; }
+        text-align: center; }
         .main .mainContainer .drone .droneText .row {
-          justify-content: center;
-          align-content: center; }
+          justify-content: center; }
         .main .mainContainer .drone .droneText .button {
           background-color: #204695;
           display: inline-block;
@@ -140,7 +137,6 @@ body {
             font-size: 18px; }
     .main .mainContainer .reviewsMain {
       padding-top: 4%;
-      border-top: 1px solid black;
       display: grid;
       grid-template-columns: auto auto auto; }
       .main .mainContainer .reviewsMain .checked {

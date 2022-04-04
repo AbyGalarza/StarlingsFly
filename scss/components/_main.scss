@@ -64,15 +64,12 @@ body{
         .drone{
             display: flex;
                 .droneImg{
-                    display: flex;
                     justify-content: center;
                 }
                 .droneText{
                     text-align: center;
-                    align-content: center;
                     .row{
                         justify-content: center;
-                        align-content: center;
                     }
                     .button{
                         background-color: #204695;
@@ -118,7 +115,6 @@ body{
             }
             .reviewsMain{
                 padding-top: 4%;
-                border-top: 1px solid black;
                 display: grid;
                 grid-template-columns: auto auto auto;
                 .checked{
