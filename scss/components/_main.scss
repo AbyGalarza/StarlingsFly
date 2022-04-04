@@ -14,7 +14,7 @@ body{
         
     }
 }
-.main2{
+.main{
     padding: 65px 0;
     .mainContainer{
         width: 100%;
@@ -65,23 +65,66 @@ body{
             display: flex;
                 .droneImg{
                     display: flex;
-                    align-content: center;
+                    justify-content: center;
                 }
-                .button{
-                    background-color: #204695;
-                    display: inline-block;
-                    width: 185px;
-                    height: 40px;
-                    margin-bottom: 15px;
-                    padding: 11px 15px;
-                    border-radius: 25px;
-                    font-family: Montserrat, sans-serif;
-                    color: #fff;
-                    font-size: 13px;
-                    font-weight: 700;
+                .droneText{
                     text-align: center;
-                    text-decoration: none;
+                    align-content: center;
+                    .row{
+                        justify-content: center;
+                        align-content: center;
+                    }
+                    .button{
+                        background-color: #204695;
+                        display: inline-block;
+                        width: 185px;
+                        height: 40px;
+                        margin-bottom: 15px;
+                        padding: 11px 15px;
+                        border-radius: 25px;
+                        font-family: Montserrat, sans-serif;
+                        color: #fff;
+                        font-size: 13px;
+                        font-weight: 700;
+                        text-align: center;
+                        text-decoration: none;
+                    }
                 }
+
+            }
+            .articles{
+                display: flex;
+                width: 100%;
+                margin: 5% 0 0 0;
+                div{
+                    margin: 1%;
+                    justify-content: space-around;
+                    img{
+                        width: 100%;
+                        justify-content: space-evenly;
+                    }
+                    a{
+                        text-decoration: none;
+                        color: black;
+                        h3{
+                            margin: 3%;
+                            text-align: center;
+                            font-size: 18px;
+                        }
+                    }
+
+                }
+
+            }
+            .reviewsMain{
+                padding-top: 4%;
+                border-top: 1px solid black;
+                display: grid;
+                grid-template-columns: auto auto auto;
+                .checked{
+                    color: orange;
+                }
+
             }
     }
 }

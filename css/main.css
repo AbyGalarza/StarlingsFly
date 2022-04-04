@@ -56,33 +56,33 @@ body {
   border-bottom: 1px #aaaaaa solid;
   padding: 5%; }
 
-.main2 {
+.main {
   padding: 65px 0; }
-  .main2 .mainContainer {
+  .main .mainContainer {
     width: 100%;
     margin: 0 auto;
     padding: 0 70px; }
-    .main2 .mainContainer .airplane {
+    .main .mainContainer .airplane {
       display: flex; }
-      .main2 .mainContainer .airplane .airplaneImg {
+      .main .mainContainer .airplane .airplaneImg {
         display: flex;
         align-content: center; }
-      .main2 .mainContainer .airplane .title {
+      .main .mainContainer .airplane .title {
         font-family: 'Montserrat', sans-serif;
         font-size: 13px;
         font-weight: bold;
         color: #204695; }
-      .main2 .mainContainer .airplane h1 {
+      .main .mainContainer .airplane h1 {
         margin-top: 10px;
         margin-bottom: 45px;
         font-size: 44px;
         line-height: 50px; }
-        .main2 .mainContainer .airplane h1 b {
+        .main .mainContainer .airplane h1 b {
           font-weight: 600; }
-        .main2 .mainContainer .airplane h1 span {
+        .main .mainContainer .airplane h1 span {
           font-size: 44px;
           font-weight: 300; }
-      .main2 .mainContainer .airplane .button {
+      .main .mainContainer .airplane .button {
         background-color: #204695;
         display: inline-block;
         width: 185px;
@@ -96,25 +96,55 @@ body {
         font-weight: 700;
         text-align: center;
         text-decoration: none; }
-    .main2 .mainContainer .drone {
+    .main .mainContainer .drone {
       display: flex; }
-      .main2 .mainContainer .drone .droneImg {
+      .main .mainContainer .drone .droneImg {
         display: flex;
-        align-content: center; }
-      .main2 .mainContainer .drone .button {
-        background-color: #204695;
-        display: inline-block;
-        width: 185px;
-        height: 40px;
-        margin-bottom: 15px;
-        padding: 11px 15px;
-        border-radius: 25px;
-        font-family: Montserrat, sans-serif;
-        color: #fff;
-        font-size: 13px;
-        font-weight: 700;
+        justify-content: center; }
+      .main .mainContainer .drone .droneText {
         text-align: center;
-        text-decoration: none; }
+        align-content: center; }
+        .main .mainContainer .drone .droneText .row {
+          justify-content: center;
+          align-content: center; }
+        .main .mainContainer .drone .droneText .button {
+          background-color: #204695;
+          display: inline-block;
+          width: 185px;
+          height: 40px;
+          margin-bottom: 15px;
+          padding: 11px 15px;
+          border-radius: 25px;
+          font-family: Montserrat, sans-serif;
+          color: #fff;
+          font-size: 13px;
+          font-weight: 700;
+          text-align: center;
+          text-decoration: none; }
+    .main .mainContainer .articles {
+      display: flex;
+      width: 100%;
+      margin: 5% 0 0 0; }
+      .main .mainContainer .articles div {
+        margin: 1%;
+        justify-content: space-around; }
+        .main .mainContainer .articles div img {
+          width: 100%;
+          justify-content: space-evenly; }
+        .main .mainContainer .articles div a {
+          text-decoration: none;
+          color: black; }
+          .main .mainContainer .articles div a h3 {
+            margin: 3%;
+            text-align: center;
+            font-size: 18px; }
+    .main .mainContainer .reviewsMain {
+      padding-top: 4%;
+      border-top: 1px solid black;
+      display: grid;
+      grid-template-columns: auto auto auto; }
+      .main .mainContainer .reviewsMain .checked {
+        color: orange; }
 
 /* footer */
 footer {
@@ -125,7 +155,7 @@ footer {
   padding: 10px;
   margin-top: 20px;
   justify-content: space-between; }
-  footer h3 {
+  footer h4 {
     font-size: 15px; }
   footer .footerSections {
     display: flex;
