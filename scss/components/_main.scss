@@ -2,8 +2,8 @@ body{
     background-color: #FFFAF5;
 }
 
-.bannerContainer{
-    
+.banner-container{
+    width: 100%;
     .banner{
         width: 100%;
         border-radius: 10px;
@@ -15,34 +15,36 @@ body{
     }
 }
 .main{
-    padding: 65px 0;
-    .mainContainer{
-        width: 100%;
-        margin: 0 auto;
-        padding: 0 70px;
-        .airplane{
+    .main-container{
+        .airplane-section{
             display: flex;
-            .airplaneImg{
-                display: flex;
-                align-content: center;
-            }
-            .title{
-                font-family: 'Montserrat', sans-serif;
-                font-size: 13px;
-                font-weight: bold;
-                color: #204695;
-            }
-            h1{
-                margin-top: 10px;
-                margin-bottom: 45px;
-                font-size: 44px;
-                line-height: 50px;
-                b{
-                    font-weight: 600;
+            padding: 5%;
+            .airplane-img{
+                img{
+                    width: 100%;
                 }
-                span{
-                    font-size: 44px;
-                    font-weight: 300;
+            }
+            .airplane-text-container{
+                margin-left: 8%;
+                .airplane-titles{
+                    .title{
+                        font-family: 'Montserrat', sans-serif;
+                        font-size: 13px;
+                        font-weight: bold;
+                        color: #204695;
+                    }
+                    h1{
+                        margin: 10px;
+                        font-size: 44px;
+                        line-height: 50px;
+                        span{
+                            font-size: 44px;
+                            font-weight: 300;
+                        }
+                    }
+                }
+                .airplane-p-container{
+                    width: 85%;
                 }
             }
                 .button{
@@ -61,15 +63,23 @@ body{
                     text-decoration: none;
                 }
         }
-        .drone{
+        .drone-section{
             display: flex;
-                .droneImg{
-                    justify-content: center;
+            padding: 5%;
+                .drone-img{
+                    img{
+                        width: 100%;
+                    }
                 }
-                .droneText{
-                    text-align: center;
-                    .row{
+                .drone-text-container{
+                    margin-right: 8%;
+                    text-align: right;
+                    .drone-titles{
                         justify-content: center;
+                        align-content: center;
+                    }
+                    .drone-p-container{
+                        margin-left: 15%;
                     }
                     .button{
                         background-color: #204695;
@@ -89,6 +99,7 @@ body{
                 }
 
             }
+
             .articles{
                 display: flex;
                 width: 100%;
