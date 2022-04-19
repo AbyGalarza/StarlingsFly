@@ -12,6 +12,8 @@ header{
         display: flex;
         flex-direction: row;
         background-color: #204695;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
         ul{
         width: 100%;
         display: flex;
@@ -39,7 +41,7 @@ header{
                 list-style: none;
                 font-size: 17px;
                 .redBottom{
-                    border-bottom: 2px transparent rgb(245, 58, 58);
+                    border-bottom: 2px transparent rgb(253, 136, 136);
                     transition: 0.2s;
                 }
                 a{
@@ -55,5 +57,6 @@ header{
 .redBottom:hover{
     scale: (1.1);
     opacity: 1;
-    border-bottom: 2px solid rgb(245, 58, 58);
+    border-bottom: 2px solid rgb(253, 136, 136);
+    color: #ffff;
 }
