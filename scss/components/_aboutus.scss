@@ -1,0 +1,56 @@
+.main-container{
+    .about-us-h1{
+        color: #204695;
+        font-family: 'Montserrat', sans-serif;
+        margin: auto;
+        font-size: 35px;
+        font-weight: bold;
+        padding: 2% 0 1% 2%;
+        text-align: center;
+    }
+    .about-us-section{
+        display: flex;
+        padding: 2%;
+        .about-us-img-container{
+            img{
+                width: 100%;
+            }
+        }
+        .about-us-text{
+            padding: 3%;
+            align-self: center;
+        }
+    }
+    .about-us-video-section{
+        display: flex;
+        flex-direction: column;
+        .about-us-title-container{
+            text-align: center;
+            h2{
+                padding: 1%;
+                color: #204695;
+                font-family: 'Montserrat', sans-serif;
+            }
+        }
+        .about-us-video-container{
+            display: flex;
+            justify-content: center;
+            .about-us-video{
+                width: 150vh;
+                height: 60vh;
+            }
+        }
+        .about-us-video-p{
+            padding: 2%;
+            .about-us-p{
+                width: 80%;
+                margin: auto;
+            }
+
+        }
+    }
+    img{
+        @extend %borde;
+    }
+
+}

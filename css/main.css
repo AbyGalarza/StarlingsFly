@@ -56,7 +56,7 @@ body {
   .banner-container .banner {
     width: 100%;
     border-radius: 10px;
-    margin-top: 5px; }
+    margin-top: 2px; }
   .banner-container p {
     border-bottom: 1px #aaaaaa solid;
     padding: 5%; }
@@ -149,7 +149,7 @@ body {
   .main .main-container .reviews-container .checked {
     color: orange; }
 
-.main img {
+.main img, .main-container img {
   border-radius: 10px; }
 
 /* footer */
@@ -197,3 +197,42 @@ footer {
 
 .navFooter:hover {
   transform: scale(1.1); }
+
+.main-container .about-us-h1 {
+  color: #204695;
+  font-family: 'Montserrat', sans-serif;
+  margin: auto;
+  font-size: 35px;
+  font-weight: bold;
+  padding: 2% 0 1% 2%;
+  text-align: center; }
+
+.main-container .about-us-section {
+  display: flex;
+  padding: 2%; }
+  .main-container .about-us-section .about-us-img-container img {
+    width: 100%; }
+  .main-container .about-us-section .about-us-text {
+    padding: 3%;
+    align-self: center; }
+
+.main-container .about-us-video-section {
+  display: flex;
+  flex-direction: column; }
+  .main-container .about-us-video-section .about-us-title-container {
+    text-align: center; }
+    .main-container .about-us-video-section .about-us-title-container h2 {
+      padding: 1%;
+      color: #204695;
+      font-family: 'Montserrat', sans-serif; }
+  .main-container .about-us-video-section .about-us-video-container {
+    display: flex;
+    justify-content: center; }
+    .main-container .about-us-video-section .about-us-video-container .about-us-video {
+      width: 150vh;
+      height: 60vh; }
+  .main-container .about-us-video-section .about-us-video-p {
+    padding: 2%; }
+    .main-container .about-us-video-section .about-us-video-p .about-us-p {
+      width: 80%;
+      margin: auto; }
