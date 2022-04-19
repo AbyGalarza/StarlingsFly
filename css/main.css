@@ -198,6 +198,7 @@ footer {
 .navFooter:hover {
   transform: scale(1.1); }
 
+/* About us */
 .main-container .about-us-h1 {
   color: #204695;
   font-family: 'Montserrat', sans-serif;
