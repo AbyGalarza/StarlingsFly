@@ -8,7 +8,7 @@
 header nav {
   display: flex;
   flex-direction: row;
-  background: #ffffff; }
+  background-color: #204695; }
   header nav ul {
     width: 100%;
     display: flex;
@@ -38,7 +38,7 @@ header nav {
       header nav ul li a {
         text-align: center;
         text-decoration: none;
-        color: #204695; }
+        color: #ffff; }
 
 .redBottom:hover {
   scale: 1.1;
@@ -52,7 +52,8 @@ body {
   width: 100%; }
   .banner-container .banner {
     width: 100%;
-    border-radius: 10px; }
+    border-radius: 10px;
+    margin-top: 1%; }
   .banner-container p {
     border-bottom: 1px #aaaaaa solid;
     padding: 5%; }
@@ -139,11 +140,15 @@ body {
         text-align: center;
         font-size: 18px; }
 
-.main .main-container .reviewsMain {
+.main .main-container .reviews-container {
   padding-top: 4%;
   display: grid;
   grid-template-columns: auto auto auto; }
-  .main .main-container .reviewsMain .checked {
+  .main .main-container .reviews-container .review {
+    display: flex;
+    flex-direction: column;
+    text-align: center; }
+  .main .main-container .reviews-container .checked {
     color: orange; }
 
 /* footer */

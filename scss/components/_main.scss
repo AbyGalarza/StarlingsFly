@@ -7,6 +7,7 @@ body{
     .banner{
         width: 100%;
         border-radius: 10px;
+        margin-top: 1%;
     }
     p{
         border-bottom: 1px rgb(170, 170, 170) solid;
@@ -124,10 +125,15 @@ body{
                 }
 
             }
-            .reviewsMain{
+            .reviews-container{
                 padding-top: 4%;
                 display: grid;
                 grid-template-columns: auto auto auto;
+                .review{
+                    display: flex;
+                    flex-direction: column;
+                    text-align: center;
+                }
                 .checked{
                     color: orange;
                 }
