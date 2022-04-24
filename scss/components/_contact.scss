@@ -2,14 +2,16 @@
 .contact-us-main-container{
     .contact-us-banner-container{
         background-color: #204695;
-        padding: 5%;
+        padding: 4%;
         color: #ffff;
         text-align: center;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
         .contact-us-title{
-            font-size: 80px;
+            font-size: 60px;
         }
         .contact-us-banner-p{
-            font-size: 17px;
+            font-size: 18px;
         }
     }
     .main-sections{
@@ -17,11 +19,11 @@
         grid-template-columns: 50% auto;
         .form-container{
             padding: 2%;
-            margin-left: auto;
+            margin-left: 2%;
             margin-right: auto;
             .contact-form-container{
                 h2{
-                    margin: 2% 0%;
+                    margin: 2%;
                     color: #204695;
                     font-family: 'Montserrat', sans-serif;
                     font-size: 30px;
@@ -29,11 +31,10 @@
                 }
                 p{
                     font: 30px;
-                    margin: 2% 0%;
+                    margin: 2%;
                     font-family: 'Nunito Sans', sans-serif;
                 }
                 form{
-                    margin: 1%;
                     label{
                         display: none;
                     }
@@ -74,6 +75,7 @@
                 }
                 .social-media-container{
                     h3{
+                        padding-top: 5%;
                         font-family: 'Montserrat', sans-serif;
                         color: #204695;
                     }

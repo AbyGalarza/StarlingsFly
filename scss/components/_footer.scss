@@ -7,14 +7,13 @@ footer{
     border-top: 1px solid black;
     padding: 10px;
     margin-top: 20px;
-    justify-content: space-between;
     h4{
         font-size: 15px;
     }
     .footerSections{
         display: flex;
         flex-direction: row;
-        align-items: center;
+        align-items: center; 
         .nav{
             display: flex;
             flex-direction: column;
@@ -31,29 +30,23 @@ footer{
             a{
                 flex-wrap: wrap;
             }
-            .imgSocial{
-                width: 23%;
-                transition: 0.3s;
-            }
-            .facebook{
-                width: 10%;
-            }
-            .ig{
-                width: 40%;
-            }
-        }
-        .contact{
-            font-size: 17px;
-            color: #fff;
-            text-decoration: none;
+                .img-social{
+                    width: 25%;
+                    transition: 0.3s;
+               }       
         }
     }
 }
 
-.imgSocial:hover{
+.img-social:hover{
     transform: scale(1.1);
 }
 
 .navFooter:hover{
     transform: scale(1.1);
 }
+
+
+
+
+  

@@ -5,14 +5,16 @@ body{
 .main-container{
     .about-us-banner-container{
         background-color: #204695;
-        padding: 5%;
+        padding: 4%;
         color: #ffff;
         text-align: center;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
         .about-us-title{
-            font-size: 80px;
+            font-size: 60px;
         }
         .about-us-banner-p{
-            font-size: 17px;
+            font-size: 18px;
         }
     }
 
