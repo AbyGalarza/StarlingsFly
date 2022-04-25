@@ -2,14 +2,12 @@
 body{
     background-color: #FFFAF5;
 }
-.main-container{
+
+header{
     .about-us-banner-container{
-        background-color: #204695;
-        padding: 4%;
+        padding-bottom: 4%;
         color: #ffff;
         text-align: center;
-        border-bottom-left-radius: 10px;
-        border-bottom-right-radius: 10px;
         .about-us-title{
             font-size: 60px;
         }
@@ -17,7 +15,9 @@ body{
             font-size: 18px;
         }
     }
+}
 
+.main-container{
     .about-us-section{
         display: flex;
         padding: 2%;

@@ -1,12 +1,10 @@
 /* Contact us */
-.contact-us-main-container{
+
+header{
     .contact-us-banner-container{
-        background-color: #204695;
-        padding: 4%;
+        padding-bottom: 4%;
         color: #ffff;
         text-align: center;
-        border-bottom-left-radius: 10px;
-        border-bottom-right-radius: 10px;
         .contact-us-title{
             font-size: 60px;
         }
@@ -14,6 +12,9 @@
             font-size: 18px;
         }
     }
+}
+
+.contact-us-main-container{
     .main-sections{
         display: grid;
         grid-template-columns: 50% auto;
