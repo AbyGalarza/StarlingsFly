@@ -11,14 +11,18 @@ footer{
         font-size: 15px;
     }
     .footerSections{
-        display: flex;
-        flex-direction: row;
+        display: grid;
         align-items: center; 
+        grid-template-columns: 50% 50%;
         .nav{
             display: flex;
-            flex-direction: column;
+            flex-direction: row;
+            width: 100%;
             font-size: 17px;
+            justify-self: center;
+            justify-content: center;
             a{
+                padding: 3%;
                 text-decoration: none;
                 color: #fff;
                 transition: 0.3s;
@@ -26,14 +30,15 @@ footer{
         }
         .social{
             display: flex;
-            flex-direction: row;
+            justify-self: center;
+            width: 100%;
             a{
                 flex-wrap: wrap;
             }
-                .img-social{
-                    width: 25%;
-                    transition: 0.3s;
-               }       
+            .img-social{
+                width: 15%;
+                transition: 0.3s;
+           }       
         }
     }
 }
