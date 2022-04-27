@@ -1,5 +1,13 @@
 /* Aircraft */
 
+.header-aircraf{
+    background-image: url(../img/plane.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 52%;
+}
+
 .main-container{
     .aircraft-container{
         .aircraft-img{
@@ -8,7 +16,7 @@
         .aircraft-name-title{
             text-align: center;
             position: relative;
-            bottom: 49rem;
+            bottom: 45rem;
             color: #d42032;
             font-size: 50px;
         }

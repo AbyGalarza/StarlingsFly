@@ -21,8 +21,7 @@ header {
       align-items: center;
       margin: 0;
       padding: 0;
-      list-style: none;
-      font-size: 16px; }
+      list-style: none; }
       header nav ul .containerLogo {
         padding: 0%; }
         header nav ul .containerLogo .logo {
@@ -33,13 +32,14 @@ header {
             width: 45%; }
       header nav ul .nav-items {
         margin: 0%;
-        padding: 1%;
         justify-content: center;
         list-style: none;
-        font-size: 17px;
+        font-size: 15px;
+        color: #ffff;
         transition: 0.2s;
-        color: #ffff; }
+        white-space: nowrap; }
         header nav ul .nav-items a {
+          padding: 10%;
           text-align: center;
           text-decoration: none;
           color: #ffff; }
@@ -53,16 +53,6 @@ body {
   background-color: #FFFAF5;
   margin: 0;
   padding: 0; }
-
-.banner-container {
-  width: 100%; }
-  .banner-container .banner {
-    width: 100%;
-    border-radius: 10px;
-    margin-top: 2px; }
-  .banner-container p {
-    border-bottom: 1px #aaaaaa solid;
-    padding: 5%; }
 
 .main .main-container .airplane-section {
   display: flex;
@@ -311,13 +301,20 @@ header .contact-us-banner-container {
         align-self: center; }
 
 /* Aircraft */
+.header-aircraf {
+  background-image: url(../img/plane.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 52%; }
+
 .main-container .aircraft-container .aircraft-img {
   width: 100%; }
 
 .main-container .aircraft-container .aircraft-name-title {
   text-align: center;
   position: relative;
-  bottom: 49rem;
+  bottom: 45rem;
   color: #d42032;
   font-size: 50px; }
 
