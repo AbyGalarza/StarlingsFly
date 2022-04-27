@@ -37,7 +37,7 @@ header{
             }
         }
         .nav-items{
-            margin: 0% 25px 0 0;
+                margin: 0;
                 padding: 0,5%;
                 justify-content: center;
                 list-style: none;
@@ -46,13 +46,15 @@ header{
                 transition: 0.2s;
                 white-space: nowrap;
                 a{
-
                     padding: 10%;
                     text-align: center;
                     text-decoration: none;
                     color:#ffff;
                 }
             }
+        .contact{
+            margin-right: 3%;
+        }
         } 
     }
     .home-section{
